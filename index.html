@@ -1,26 +1,377 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Norte 77 Barbería: cortes, barba y estilo. Reserva por WhatsApp.">
-<title>Norte 77 Barbería</title>
-<style>
-:root{--bg:#0e1014;--card:#171a20;--paper:#f1ece2;--ink:#111318;--gold:#d6a85f;--muted:#a5a9b2;--line:rgba(255,255,255,.1);--r:24px}*{box-sizing:border-box}html{scroll-behavior:smooth;overflow-x:hidden}body{margin:0;padding-top:72px;overflow-x:hidden;background:var(--bg);color:#f7f5f1;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}.container{width:min(1120px,calc(100% - 32px));margin:auto}header{position:fixed;top:0;left:0;right:0;width:100%;z-index:100;background:rgba(14,16,20,.86);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;font-weight:900}.mark{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--gold);color:var(--ink)}.links{display:flex;gap:26px;align-items:center;font-size:.92rem;font-weight:700}.pill{border:1px solid var(--line);padding:10px 16px;border-radius:999px}.hero{padding:84px 0 70px;scroll-margin-top:88px;background:radial-gradient(circle at 12% 10%,rgba(214,168,95,.14),transparent 27%),var(--bg)}.grid{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}.grid>*{min-width:0}.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;font-weight:900;color:#efca86;margin:0 0 12px}h1,h2,h3{font-family:Georgia,serif;line-height:1.02;letter-spacing:-.035em;margin-top:0}h1{font-size:clamp(3.7rem,6.1vw,5.5rem);margin-bottom:22px;max-width:100%;overflow-wrap:normal;word-break:normal;hyphens:none}h1 span{display:block;white-space:nowrap}h2{font-size:clamp(2.3rem,4vw,4rem);margin-bottom:16px}h3{font-size:1.45rem;margin-bottom:8px}.lead{color:#c3c6cd;font-size:1.1rem;max-width:620px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:13px 20px;border-radius:999px;font-weight:900}.primary{background:var(--gold);color:var(--ink)}.secondary{border:1px solid var(--line)}.stats{display:flex;gap:30px;margin-top:30px}.stats div{display:flex;flex-direction:column}.stats strong{font-size:1.3rem}.stats span{font-size:.78rem;color:var(--muted)}.note{font-size:.7rem;color:#767b84}.visual{min-height:620px;border-radius:32px;overflow:hidden;position:relative;background:linear-gradient(145deg,#30343c,#101216);border:1px solid var(--line);box-shadow:0 28px 80px rgba(0,0,0,.35)}.visual:before{content:"";position:absolute;inset:40px 45px 300px;border-radius:22px;background:linear-gradient(145deg,#181b21,#272b34);border:1px solid rgba(255,255,255,.07)}.mirror{position:absolute;left:75px;top:75px;width:230px;height:250px;border-radius:18px;background:#0c0e11;border:8px solid #bb8b48;box-shadow:inset 0 0 0 10px #1c2027}.shelf{position:absolute;right:70px;top:80px;width:180px;height:210px;border-radius:18px;background:#1d2128}.shelf:before,.shelf:after{content:"";position:absolute;left:24px;right:24px;height:14px;border-radius:8px;background:#d6a85f}.shelf:before{top:35px}.shelf:after{top:82px;background:rgba(255,255,255,.16)}.chair{position:absolute;left:50%;bottom:70px;transform:translateX(-50%);width:260px;height:260px}.chair:before{content:"";position:absolute;left:25px;right:25px;top:0;height:150px;border-radius:60px 60px 26px 26px;background:#2b3039}.chair:after{content:"";position:absolute;left:0;right:0;bottom:45px;height:85px;border-radius:24px;background:#22262e;box-shadow:0 24px 50px rgba(0,0,0,.35)}.base{position:absolute;left:111px;bottom:0;width:38px;height:100px;background:#b9833b;border-radius:16px}.float{position:absolute;left:20px;bottom:26px;background:rgba(245,241,233,.96);color:var(--ink);padding:15px 18px;border-radius:18px;box-shadow:0 18px 45px rgba(0,0,0,.28)}.float span{display:block;font-size:.72rem;color:#686d75}.strip{border-block:1px solid var(--line)}.trust{min-height:78px;display:grid;grid-template-columns:repeat(4,1fr);align-items:center;text-align:center;font-size:.9rem;color:#d4d6dc}.trust b{color:#efca86}.section{padding:105px 0;scroll-margin-top:88px}.heading{display:grid;grid-template-columns:1fr .7fr;gap:50px;align-items:end;margin-bottom:42px}.heading>p{color:#777d87}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{min-height:270px;padding:26px;border:1px solid var(--line);border-radius:var(--r);background:var(--card);display:flex;flex-direction:column}.card.featured{background:linear-gradient(155deg,#302719,#171a20 60%);border-color:rgba(214,168,95,.38)}.icon{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;background:rgba(214,168,95,.12);color:#efca86;margin-bottom:25px}.card p{color:var(--muted);margin:0}.price{margin-top:auto;padding-top:22px;font-size:1.35rem;font-weight:900}.paper{background:var(--paper);color:var(--ink)}.paper .eyebrow{color:#8a6429}.gallery{display:grid;grid-template-columns:1.25fr .75fr;grid-template-rows:1fr 1fr;gap:16px}.shot{min-height:260px;border-radius:26px;overflow:hidden;position:relative;background:linear-gradient(145deg,#22262d,#8f6036)}.shot.big{grid-row:1/3;min-height:550px}.face{position:absolute;width:58%;aspect-ratio:1;left:23%;top:15%;border-radius:48% 48% 44% 44%;background:#b97e49}.hair{position:absolute;width:64%;height:42%;left:18%;top:8%;border-radius:50% 50% 30% 30%;background:#111318}.beard{position:absolute;width:49%;height:32%;left:27%;top:47%;border-radius:20% 20% 48% 48%;background:#332019}.label{position:absolute;left:22px;bottom:22px;padding:9px 13px;border-radius:999px;background:rgba(245,241,233,.9);font-size:.75rem;font-weight:900}.tools{background:linear-gradient(135deg,#d8c8b3,#a68b69)}.tools:before{content:"";position:absolute;left:12%;top:18%;width:38%;height:64%;border-radius:18px;background:#1b1e24;box-shadow:210px 30px 0 #262a31}.tools:after{content:"";position:absolute;left:21%;top:31%;width:20%;height:8px;border-radius:9px;background:#d6a85f;box-shadow:210px 45px 0 #d6a85f,210px 80px 0 rgba(255,255,255,.25)}.station{background:linear-gradient(145deg,#1b1e24,#443423)}.station:before{content:"";position:absolute;left:12%;right:12%;bottom:16%;height:24%;border-radius:20px;background:#111318;box-shadow:0 -150px 0 -20px #292d35}.quote{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px}blockquote{margin:0;padding-left:34px;border-left:2px solid var(--gold);font-family:Georgia,serif;font-size:clamp(1.7rem,3vw,2.7rem);line-height:1.25}blockquote footer{font:500 .82rem Inter,system-ui;color:var(--muted);margin-top:22px}.location{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:center}.hours{border-top:1px solid rgba(17,19,24,.14);margin:28px 0}.hours div{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid rgba(17,19,24,.14)}.map{min-height:430px;border-radius:30px;background:linear-gradient(25deg,#d8cbb9,#eee8df);position:relative;overflow:hidden}.road{position:absolute;width:120%;height:20px;background:#b9aa95;transform:rotate(18deg);left:-10%;top:45%}.road.r2{transform:rotate(-34deg);top:38%}.road.r3{transform:rotate(76deg);top:48%}.pin{position:absolute;left:53%;top:46%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:20px 20px 20px 5px;background:#111318;color:#efca86;display:grid;place-items:center;font-weight:900}.cta{padding:20px 0 90px}.cta-box{background:var(--gold);color:var(--ink);padding:48px;border-radius:32px;display:flex;align-items:center;justify-content:space-between;gap:24px}.cta-box h2{margin-bottom:0}.light{background:#fff;color:var(--ink)}footer{padding:64px 0 34px}.footer{display:flex;justify-content:space-between;gap:24px;align-items:flex-start}.copyright{border-top:1px solid var(--line);padding-top:22px;margin-top:32px;color:#757b85;font-size:.78rem}.wa{position:fixed;right:18px;bottom:18px;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#25d366;color:#07140b;font-weight:900;box-shadow:0 12px 30px rgba(0,0,0,.3)}@media(max-width:900px){.grid,.location,.quote{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}.heading{grid-template-columns:1fr;gap:4px}.visual{min-height:560px}.trust{grid-template-columns:repeat(2,1fr);gap:16px;padding:20px 0}}@media(max-width:650px){.links a:not(.pill){display:none}.hero{padding-top:55px}h1{font-size:clamp(2.8rem,12vw,3.35rem);line-height:1.01;letter-spacing:-.04em}.visual{min-height:500px}.mirror{left:35px;width:180px}.shelf{right:35px;width:145px}.cards{grid-template-columns:1fr}.gallery{grid-template-columns:1fr;grid-template-rows:auto}.shot.big{grid-row:auto;min-height:420px}.cta-box,.footer{flex-direction:column;align-items:flex-start}.section{padding:78px 0}.stats{justify-content:space-between;gap:10px}}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="OFFSET Barber Studio — demo moderna de página web para barberías." />
+  <title>OFFSET — Barber Studio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+    :root{
+      --bg:#f4f4ef;
+      --paper:#ffffff;
+      --ink:#101114;
+      --muted:#656a73;
+      --line:rgba(16,17,20,.11);
+      --soft:#e8e8e1;
+      --accent:#ff5a36;
+      --accent-2:#5e5ce6;
+      --dark:#111216;
+      --radius:28px;
+      --shadow:0 24px 80px rgba(16,17,20,.12);
+      --container:1180px;
+      --header:78px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",system-ui,sans-serif;line-height:1.55;overflow-x:hidden}
+    img{display:block;max-width:100%}
+    a{color:inherit;text-decoration:none}
+    button{font:inherit}
+    .container{width:min(calc(100% - 32px),var(--container));margin-inline:auto}
+
+    .site-header{position:fixed;inset:0 0 auto;z-index:100;background:rgba(244,244,239,.78);backdrop-filter:blur(18px);border-bottom:1px solid rgba(16,17,20,.07)}
+    .nav{min-height:var(--header);display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:-.03em}
+    .brand-mark{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:white;font-size:.82rem}
+    .brand small{display:block;color:var(--muted);font-weight:600;font-size:.67rem;text-transform:uppercase;letter-spacing:.16em;margin-top:2px}
+    .nav-links{display:flex;align-items:center;gap:26px;color:#3e4249;font-size:.92rem;font-weight:600}
+    .nav-links a:hover{color:var(--ink)}
+    .nav-cta{padding:11px 17px;border-radius:999px;background:var(--ink);color:white}
+    .menu-btn{display:none;border:0;background:none;font-size:1.65rem;padding:6px}
+
+    .hero{padding:calc(var(--header) + 64px) 0 84px;position:relative;overflow:hidden}
+    .hero::before{content:"";position:absolute;width:620px;height:620px;border-radius:50%;right:-230px;top:80px;background:radial-gradient(circle at 35% 35%,rgba(255,90,54,.34),rgba(94,92,230,.18) 38%,transparent 68%);filter:blur(10px);pointer-events:none}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(420px,.95fr);gap:58px;align-items:center}
+    .kicker{display:inline-flex;align-items:center;gap:9px;font-size:.78rem;text-transform:uppercase;letter-spacing:.18em;font-weight:800;color:#4d5159;margin-bottom:18px}
+    .kicker::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--accent)}
+    h1,h2,h3{font-family:"Manrope",system-ui,sans-serif;letter-spacing:-.055em;line-height:1.02;margin:0}
+    h1{font-size:clamp(3.2rem,7.4vw,7rem);max-width:790px}
+    h2{font-size:clamp(2.4rem,5vw,4.7rem)}
+    h3{font-size:1.28rem;letter-spacing:-.035em}
+    .hero-copy p{font-size:1.1rem;color:var(--muted);max-width:650px;margin:24px 0 30px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:13px 20px;border-radius:999px;font-weight:800;transition:transform .18s ease,box-shadow .18s ease}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:var(--ink);color:white;box-shadow:0 16px 32px rgba(16,17,20,.16)}
+    .btn-secondary{background:rgba(255,255,255,.72);border:1px solid var(--line)}
+    .hero-foot{display:flex;gap:26px;flex-wrap:wrap;margin-top:38px;color:#484d55;font-size:.88rem}
+    .hero-foot span{display:flex;align-items:center;gap:8px}
+    .mini-dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
+
+    .product-shell{position:relative}
+    .product-window{background:var(--paper);border:1px solid rgba(16,17,20,.1);border-radius:32px;padding:18px;box-shadow:var(--shadow);transform:rotate(1.5deg)}
+    .window-top{display:flex;align-items:center;justify-content:space-between;padding:5px 4px 16px;color:#6b7078;font-size:.8rem}
+    .traffic{display:flex;gap:6px}.traffic i{width:8px;height:8px;border-radius:50%;background:#d2d4d8}.traffic i:first-child{background:#ff7b63}.traffic i:nth-child(2){background:#f5c656}.traffic i:nth-child(3){background:#4cc27f}
+    .booking-ui{background:linear-gradient(145deg,#111216,#1a1c22);border-radius:24px;padding:22px;color:white;position:relative;overflow:hidden}
+    .booking-ui::after{content:"";position:absolute;width:240px;height:240px;border-radius:50%;right:-90px;bottom:-110px;background:radial-gradient(circle,#5e5ce6 0%,rgba(94,92,230,.18) 48%,transparent 72%)}
+    .booking-head{display:flex;align-items:center;justify-content:space-between;gap:14px;position:relative;z-index:1}
+    .booking-head span{font-size:.75rem;color:#aeb2bb;text-transform:uppercase;letter-spacing:.16em}
+    .status{padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.08);font-size:.75rem;color:#d8dbe1}
+    .service-choice{position:relative;z-index:1;margin-top:22px;padding:18px;border-radius:18px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08)}
+    .service-choice strong{display:block;font-size:1.22rem;margin-bottom:4px}.service-choice small{color:#aeb2bb}
+    .time-label{position:relative;z-index:1;margin:24px 0 10px;font-size:.78rem;color:#aeb2bb;text-transform:uppercase;letter-spacing:.14em}
+    .times{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;position:relative;z-index:1}
+    .times button{border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.05);color:white;border-radius:14px;padding:12px 8px;font-weight:700}.times button.active{background:var(--accent);border-color:var(--accent);color:#1d100b}
+    .booking-submit{position:relative;z-index:1;margin-top:16px;width:100%;border:0;border-radius:15px;padding:14px;background:white;color:#121318;font-weight:800}
+    .float-card{position:absolute;right:-24px;bottom:-30px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:17px 18px;box-shadow:0 20px 52px rgba(16,17,20,.16);transform:rotate(-3deg)}
+    .float-card b{display:block;font-size:1.45rem}.float-card span{font-size:.78rem;color:var(--muted)}
+
+    .proof{border-block:1px solid var(--line);background:rgba(255,255,255,.35)}
+    .proof-grid{display:grid;grid-template-columns:1.1fr repeat(3,.7fr);align-items:center;gap:20px;padding:26px 0}
+    .proof-title{font-weight:800;font-size:1.05rem}.proof-item strong{display:block;font-size:1.35rem}.proof-item span{color:var(--muted);font-size:.82rem}
+
+    section{padding:110px 0}
+    .section-head{display:grid;grid-template-columns:1fr .8fr;gap:48px;align-items:end;margin-bottom:44px}
+    .section-head p{margin:0;color:var(--muted);max-width:560px}
+    .eyebrow{font-size:.78rem;text-transform:uppercase;letter-spacing:.18em;font-weight:800;color:#585d65;margin-bottom:13px}
+
+    .bento{display:grid;grid-template-columns:1.05fr .95fr;gap:18px}
+    .bento-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:28px;overflow:hidden;position:relative;min-height:280px}
+    .bento-card.dark{background:var(--dark);color:white;border-color:transparent}
+    .bento-card p{color:var(--muted);max-width:520px}.bento-card.dark p{color:#b9bdc5}
+    .icon-wrap{width:48px;height:48px;border-radius:15px;display:grid;place-items:center;background:#ecece6;margin-bottom:26px}.dark .icon-wrap{background:rgba(255,255,255,.08)}
+    .icon{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+    .bento-wide{grid-column:1/-1;min-height:330px;display:grid;grid-template-columns:.9fr 1.1fr;gap:26px;align-items:center}
+    .mini-dashboard{background:#f2f2ed;border:1px solid var(--line);border-radius:24px;padding:18px;display:grid;grid-template-columns:.72fr 1.28fr;gap:14px}
+    .dash-nav{background:#15161a;border-radius:18px;padding:16px;color:white}.dash-nav span{display:block;font-size:.72rem;color:#959aa3;margin-bottom:12px}.dash-nav a{display:block;padding:9px 10px;border-radius:10px;color:#cdd0d6;font-size:.82rem;margin-bottom:5px}.dash-nav a.active{background:rgba(255,255,255,.1);color:white}
+    .dash-main{background:white;border-radius:18px;padding:17px}.dash-main-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.dash-main-head b{font-size:.95rem}.metric-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.metric{border:1px solid var(--line);border-radius:13px;padding:12px}.metric strong{display:block;font-size:1.05rem}.metric span{font-size:.69rem;color:var(--muted)}
+    .schedule{margin-top:10px;border:1px solid var(--line);border-radius:14px;padding:10px;display:grid;gap:8px}.slot{display:flex;justify-content:space-between;gap:8px;padding:9px 10px;border-radius:10px;background:#f7f7f4;font-size:.75rem}.slot b{font-size:.75rem}
+
+    .services-section{background:var(--dark);color:white}
+    .services-section .section-head p{color:#b7bbc3}.services-section .eyebrow{color:#c9ccd2}
+    .service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .service-card{border:1px solid rgba(255,255,255,.09);border-radius:24px;padding:24px;background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.025));min-height:320px;display:flex;flex-direction:column}
+    .service-no{font-size:.74rem;color:#90959f;letter-spacing:.12em}.service-card h3{margin-top:22px}.service-card p{color:#b5bac3;font-size:.92rem}.service-meta{margin-top:auto;display:flex;justify-content:space-between;align-items:end;gap:12px}.service-price{font-size:1.45rem;font-weight:800}.service-time{font-size:.78rem;color:#9499a3}
+
+    .photo-story{background:#f8f8f5}
+    .story-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:20px;align-items:stretch}
+    .story-copy{border-radius:30px;background:var(--accent);padding:42px;display:flex;flex-direction:column;justify-content:space-between;min-height:580px;color:#1b100c}
+    .story-copy h2{max-width:650px}.story-copy p{font-size:1.08rem;max-width:540px}.story-pills{display:flex;flex-wrap:wrap;gap:9px}.story-pills span{padding:9px 12px;border-radius:999px;background:rgba(255,255,255,.42);font-size:.78rem;font-weight:800}
+    .real-photo{border-radius:30px;overflow:hidden;position:relative;min-height:580px;background:#d8d8d3}
+    .real-photo img{width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.02)}
+    .photo-caption{position:absolute;left:18px;bottom:18px;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);border-radius:16px;padding:12px 14px;font-size:.78rem;color:#2a2d33;max-width:320px}
+
+    .flow-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:28px;align-items:start}
+    .step-list{display:grid;gap:12px}.step{padding:22px;border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.52);display:grid;grid-template-columns:42px 1fr;gap:14px}.step-num{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:white;font-weight:800}.step p{margin:6px 0 0;color:var(--muted);font-size:.9rem}
+    .phone-frame{background:linear-gradient(145deg,#1a1c22,#0f1013);border-radius:36px;padding:18px;max-width:470px;margin-left:auto;box-shadow:var(--shadow)}
+    .phone-screen{background:#f8f8f4;border-radius:25px;padding:18px;min-height:620px}.phone-bar{display:flex;justify-content:space-between;align-items:center;font-size:.75rem;color:#747982}.phone-hero{margin-top:16px;background:linear-gradient(145deg,#1b1d23,#272a33);color:white;border-radius:22px;padding:20px}.phone-hero small{color:#b9bdc5}.phone-hero h3{font-size:1.5rem;margin:10px 0 16px}.phone-hero a{display:inline-flex;background:var(--accent);color:#23120b;padding:10px 13px;border-radius:999px;font-weight:800;font-size:.78rem}.phone-services{display:grid;gap:9px;margin-top:13px}.phone-service{border:1px solid var(--line);border-radius:15px;padding:13px;background:white;display:flex;justify-content:space-between;gap:8px}.phone-service b{font-size:.84rem}.phone-service span{font-size:.76rem;color:var(--muted)}
+
+    .testimonial-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.quote-main{background:var(--accent-2);color:white;border-radius:30px;padding:38px;min-height:360px;display:flex;flex-direction:column;justify-content:space-between}.quote-main blockquote{font-family:"Manrope";font-size:clamp(1.65rem,3.5vw,3.2rem);letter-spacing:-.05em;line-height:1.06;margin:0}.quote-main footer{color:#d9d9ff}.quote-stack{display:grid;gap:18px}.quote-small{background:var(--paper);border:1px solid var(--line);border-radius:26px;padding:26px}.quote-small p{font-size:1.02rem;margin-top:0}.quote-small footer{color:var(--muted);font-size:.82rem}
+
+    .faq-list{border-top:1px solid var(--line)}
+    .faq-item{border-bottom:1px solid var(--line)}
+    .faq-question{width:100%;display:grid;grid-template-columns:1fr 44px;align-items:center;gap:18px;padding:24px 0;background:none;border:0;color:var(--ink);text-align:left;font:800 1.05rem/1.35 Inter,system-ui,sans-serif;cursor:pointer}
+    .faq-question:hover .faq-icon{background:var(--ink);color:white;transform:rotate(90deg)}
+    .faq-icon{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--line);font-size:1.35rem;font-weight:500;transition:transform .22s ease,background .22s ease,color .22s ease}
+    .faq-answer{display:grid;grid-template-rows:0fr;transition:grid-template-rows .28s ease}
+    .faq-answer>div{overflow:hidden}
+    .faq-answer p{color:var(--muted);margin:0;padding:0 64px 24px 0;max-width:820px}
+    .faq-item.open .faq-answer{grid-template-rows:1fr}
+    .faq-item.open .faq-icon{background:var(--ink);color:white;transform:rotate(45deg)}
+
+    .cta-section{padding-top:30px}.cta-card{background:var(--ink);color:white;border-radius:32px;padding:44px;display:flex;align-items:center;justify-content:space-between;gap:28px;overflow:hidden;position:relative}.cta-card::after{content:"";position:absolute;width:290px;height:290px;border-radius:50%;right:-80px;top:-110px;background:radial-gradient(circle,var(--accent) 0%,rgba(255,90,54,.08) 56%,transparent 72%)}.cta-card > *{position:relative;z-index:1}.cta-card p{color:#bfc3ca;max-width:720px}.cta-card .btn{background:white;color:var(--ink);flex:none}
+
+    footer{padding:30px 0 48px;color:#71767e;font-size:.82rem}.footer-grid{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:24px}
+
+    @media(max-width:980px){
+      .hero-grid,.section-head,.bento,.story-grid,.flow-grid,.testimonial-grid{grid-template-columns:1fr}
+      .hero-grid{gap:40px}.product-shell{max-width:670px}.service-grid{grid-template-columns:repeat(2,1fr)}.bento-wide{grid-template-columns:1fr}.proof-grid{grid-template-columns:1fr repeat(3,1fr)}.phone-frame{margin:0}
+    }
+    @media(max-width:720px){
+      :root{--header:70px}.menu-btn{display:block}.nav-links{display:none;position:absolute;left:16px;right:16px;top:66px;background:rgba(255,255,255,.98);border:1px solid var(--line);border-radius:22px;padding:14px;flex-direction:column;align-items:stretch;gap:2px;box-shadow:var(--shadow)}.nav-links.open{display:flex}.nav-links a{padding:11px 8px}.nav-cta{text-align:center}.hero{padding-top:calc(var(--header) + 46px)}h1{font-size:clamp(3rem,15vw,4.5rem)}.hero-grid{grid-template-columns:1fr}.product-window{transform:none}.float-card{right:10px;bottom:-24px}.proof-grid{grid-template-columns:repeat(2,1fr)}.proof-title{grid-column:1/-1}.service-grid{grid-template-columns:1fr}.mini-dashboard{grid-template-columns:1fr}.dash-nav{display:none}.story-copy,.real-photo{min-height:470px}.cta-card{flex-direction:column;align-items:flex-start;padding:32px 24px}.section-head{gap:16px}section{padding:82px 0}
+    }
+  </style>
 </head>
 <body>
-<header><div class="container"><nav><a class="brand" href="#inicio"><span class="mark">N77</span>Norte 77</a><div class="links"><a href="#servicios">Servicios</a><a href="#galeria">Galería</a><a href="#ubicacion">Ubicación</a><a class="pill" href="https://wa.me/56953999924?text=Hola%2C%20quiero%20reservar%20una%20hora">Reservar</a></div></nav></div></header>
-<main>
-<section class="hero" id="inicio"><div class="container grid"><div><p class="eyebrow">Barbería · Santiago</p><h1><span>Tu corte.</span><span>Tu estilo.</span><span>Sin vueltas.</span></h1><p class="lead">Cortes modernos, barba y asesoría de estilo en un espacio relajado. Reserva tu hora en menos de un minuto.</p><div class="actions"><a class="btn primary" href="https://wa.me/56953999924?text=Hola%2C%20quiero%20reservar%20una%20hora">Reservar por WhatsApp</a><a class="btn secondary" href="#servicios">Ver precios</a></div><div class="stats"><div><strong>4,9</strong><span>valoración</span></div><div><strong>+650</strong><span>clientes</span></div><div><strong>6 días</strong><span>a la semana</span></div></div><p class="note">Sitio demostrativo. Datos, opiniones y cifras son ficticios.</p></div><div class="visual"><div class="mirror"></div><div class="shelf"></div><div class="chair"><div class="base"></div></div><div class="float"><span>Próxima hora disponible</span><strong>Hoy · 18:30</strong></div></div></div></section>
-<section class="strip"><div class="container trust"><div><b>✓</b> Reserva rápida</div><div><b>✓</b> Atención personalizada</div><div><b>✓</b> Pago en el local</div><div><b>✓</b> Fácil acceso</div></div></section>
-<section class="section" id="servicios"><div class="container"><div class="heading"><div><p class="eyebrow">Servicios</p><h2>Lo esencial, bien hecho</h2></div><p>Precios claros y atención sin apuro. Cada servicio incluye recomendación según tu tipo de cabello y estilo.</p></div><div class="cards"><article class="card featured"><div class="icon">✦</div><h3>Corte + barba</h3><p>Asesoría, corte, perfilado de barba y terminaciones.</p><div class="price">$20.000 CLP</div></article><article class="card"><div class="icon">✂</div><h3>Corte clásico</h3><p>Corte a tijera o máquina, lavado y peinado final.</p><div class="price">$14.000 CLP</div></article><article class="card"><div class="icon">◌</div><h3>Barba</h3><p>Perfilado, rebaje, toalla caliente y cuidado final.</p><div class="price">$10.000 CLP</div></article><article class="card"><div class="icon">↗</div><h3>Corte premium</h3><p>Diagnóstico de estilo, lavado, corte y acabado premium.</p><div class="price">$18.000 CLP</div></article></div></div></section>
-<section class="section paper" id="galeria"><div class="container"><div class="heading"><div><p class="eyebrow">Galería</p><h2>Resultados que hablan solos</h2></div><p>Una muestra visual lista para reemplazarse por fotografías reales del negocio.</p></div><div class="gallery"><div class="shot big"><div class="face"></div><div class="hair"></div><div class="beard"></div><span class="label">Corte degradado · Demo</span></div><div class="shot tools"><span class="label">Herramientas · Demo</span></div><div class="shot station"><span class="label">Estación de trabajo · Demo</span></div></div></div></section>
-<section class="section"><div class="container quote"><div><p class="eyebrow">Experiencia</p><h2>Un lugar al que da gusto volver</h2></div><blockquote>“Me explicaron qué corte me convenía y el resultado quedó mejor de lo que esperaba. Reservé por WhatsApp y no tuve que esperar.”<footer>— Opinión demostrativa</footer></blockquote></div></section>
-<section class="section paper" id="ubicacion"><div class="container location"><div><p class="eyebrow">Visítanos</p><h2>Estamos cerca</h2><p>Av. Providencia 0000, Santiago</p><div class="hours"><div><strong>Lunes a viernes</strong><span>10:00–20:00</span></div><div><strong>Sábado</strong><span>10:00–18:00</span></div><div><strong>Domingo</strong><span>Cerrado</span></div></div><div class="actions"><a class="btn primary" href="https://maps.google.com">Cómo llegar</a><a href="https://instagram.com"><strong>@norte77barberia</strong></a></div></div><div class="map"><div class="road"></div><div class="road r2"></div><div class="road r3"></div><div class="pin">N77</div></div></div></section>
-<section class="paper cta"><div class="container cta-box"><div><p class="eyebrow" style="color:#6f4e1c">¿Listo para tu próximo corte?</p><h2>Reserva ahora y asegura tu horario.</h2></div><a class="btn light" href="https://wa.me/56953999924?text=Hola%2C%20quiero%20reservar%20una%20hora">Hablar por WhatsApp</a></div></section>
-</main>
-<footer><div class="container"><div class="footer"><div><a class="brand" href="#inicio"><span class="mark">N77</span>Norte 77</a><p style="color:var(--muted)">Barbería urbana con atención personalizada.</p></div><div class="links"><a href="#servicios">Servicios</a><a href="#galeria">Galería</a><a href="#ubicacion">Ubicación</a></div></div><div class="copyright">© <span id="year"></span> Norte 77. Demo comercial.</div></div></footer>
-<a class="wa" href="https://wa.me/56953999924?text=Hola%2C%20quiero%20reservar%20una%20hora" aria-label="Reservar por WhatsApp">WA</a>
-<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
-</body></html>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark">OF</span>
+        <span>OFFSET<small>Barber Studio</small></span>
+      </a>
+      <button class="menu-btn" type="button" aria-label="Abrir menú">☰</button>
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a href="#sistema">Sistema</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="https://wa.me/56953999924?text=Hola%2C%20quiero%20reservar%20una%20hora" target="_blank" rel="noopener">Reservar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="kicker">Diseño, oficio y reserva</div>
+          <h1>Cortes con intención. Reservas sin fricción.</h1>
+          <p>Una experiencia digital moderna para barberías que quieren verse mejor, explicar mejor lo que hacen y convertir una visita en una reserva.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://wa.me/56953999924?text=Hola%2C%20quiero%20reservar%20una%20hora" target="_blank" rel="noopener">Reservar por WhatsApp</a>
+            <a class="btn btn-secondary" href="#sistema">Explorar la experiencia</a>
+          </div>
+          <div class="hero-foot">
+            <span><i class="mini-dot"></i>Adaptada a celular</span>
+            <span><i class="mini-dot"></i>Compatible con Setmore</span>
+            <span><i class="mini-dot"></i>Lista para compartir</span>
+          </div>
+        </div>
+
+        <div class="product-shell" aria-label="Ejemplo visual de reserva">
+          <div class="product-window">
+            <div class="window-top"><div class="traffic"><i></i><i></i><i></i></div><span>offset.cl/reservar</span><span>•••</span></div>
+            <div class="booking-ui">
+              <div class="booking-head"><div><span>Reserva rápida</span><h3 style="margin-top:8px;color:white">Elige tu hora</h3></div><div class="status">Hoy disponible</div></div>
+              <div class="service-choice"><strong>Corte + barba</strong><small>50 min · $20.000 CLP</small></div>
+              <div class="time-label">Horarios disponibles</div>
+              <div class="times"><button>17:00</button><button class="active">18:30</button><button>19:15</button></div>
+              <button class="booking-submit">Continuar por WhatsApp</button>
+            </div>
+          </div>
+          <div class="float-card"><b>4,9/5</b><span>valoración promedio</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="proof">
+      <div class="container proof-grid">
+        <div class="proof-title">Todo lo importante, en un solo enlace.</div>
+        <div class="proof-item"><strong>+650</strong><span>clientes atendidos</span></div>
+        <div class="proof-item"><strong>6 días</strong><span>abierto por semana</span></div>
+        <div class="proof-item"><strong>3 pasos</strong><span>hasta la reserva</span></div>
+      </div>
+    </div>
+
+    <section id="sistema">
+      <div class="container">
+        <div class="section-head">
+          <div><div class="eyebrow">Un sistema, no una plantilla</div><h2>La web se diseña alrededor de cómo decide el cliente.</h2></div>
+          <p>La estructura prioriza claridad, velocidad y confianza: primero entiende la propuesta, luego compara servicios y finalmente reserva sin cambiar de contexto.</p>
+        </div>
+
+        <div class="bento">
+          <article class="bento-card">
+            <div class="icon-wrap">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M4 7h16M4 12h10M4 17h7"/><path d="M18 15v5M15.5 17.5h5"/></svg>
+            </div>
+            <h3>Información clara</h3>
+            <p>Servicios, precios, duración, ubicación y reservas visibles sin obligar al cliente a navegar historias o múltiples enlaces.</p>
+          </article>
+          <article class="bento-card dark">
+            <div class="icon-wrap">
+              <svg class="icon" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 9h8M8 13h5M8 17h7"/></svg>
+            </div>
+            <h3>Una marca más consistente</h3>
+            <p>La misma identidad visual en celular, WhatsApp, Google e Instagram hace que el negocio se vea más serio y fácil de recomendar.</p>
+          </article>
+          <article class="bento-card bento-wide">
+            <div>
+              <div class="icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg>
+              </div>
+              <h3>Una experiencia que también ayuda a vender</h3>
+              <p>La página puede destacar el servicio más elegido, mostrar disponibilidad y llevar al cliente directamente al canal de reserva que ya utiliza la barbería.</p>
+            </div>
+            <div class="mini-dashboard" aria-label="Panel visual demostrativo">
+              <div class="dash-nav"><span>OFFSET STUDIO</span><a class="active">Resumen</a><a>Reservas</a><a>Servicios</a><a>Galería</a></div>
+              <div class="dash-main">
+                <div class="dash-main-head"><b>Actividad de hoy</b><span style="font-size:.72rem;color:#767b84">Actualizado 18:40</span></div>
+                <div class="metric-row"><div class="metric"><strong>12</strong><span>reservas</span></div><div class="metric"><strong>84%</strong><span>ocupación</span></div><div class="metric"><strong>4,9</strong><span>valoración</span></div></div>
+                <div class="schedule"><div class="slot"><b>18:30 · Corte + barba</b><span>Confirmada</span></div><div class="slot"><b>19:15 · Corte clásico</b><span>Pendiente</span></div><div class="slot"><b>20:00 · Barba premium</b><span>Confirmada</span></div></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section" id="servicios">
+      <div class="container">
+        <div class="section-head">
+          <div><div class="eyebrow">Servicios</div><h2>Menos ruido. Mejor decisión.</h2></div>
+          <p>Cada servicio tiene una propuesta concreta, duración y precio visible. El cliente sabe qué elegir antes de escribir.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-no">01 · MÁS ELEGIDO</span><h3>Corte + barba</h3><p>Corte personalizado, perfilado y acabado completo para salir listo.</p><div class="service-meta"><span class="service-price">$20.000</span><span class="service-time">50 min</span></div></article>
+          <article class="service-card"><span class="service-no">02 · CLÁSICO</span><h3>Corte</h3><p>Tijera o máquina, contornos prolijos y recomendación de mantenimiento.</p><div class="service-meta"><span class="service-price">$14.000</span><span class="service-time">40 min</span></div></article>
+          <article class="service-card"><span class="service-no">03 · DETALLE</span><h3>Barba premium</h3><p>Perfilado, rebaje, toalla caliente y producto de acabado.</p><div class="service-meta"><span class="service-price">$10.000</span><span class="service-time">25 min</span></div></article>
+          <article class="service-card"><span class="service-no">04 · ASESORÍA</span><h3>Corte premium</h3><p>Diagnóstico de estilo, lavado y acabado pensado para tu tipo de cabello.</p><div class="service-meta"><span class="service-price">$18.000</span><span class="service-time">45 min</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="photo-story" id="experiencia">
+      <div class="container story-grid">
+        <article class="story-copy">
+          <div><div class="eyebrow" style="color:#32170f">Fotografía real, no relleno</div><h2>La imagen correcta se usa para contar algo, no para ocupar espacio.</h2><p>En una web final, las fotografías reales del local, el equipo y los resultados se integran con intención. Esta demo usa una sola imagen editorial para mostrar ese criterio.</p></div>
+          <div class="story-pills"><span>Local</span><span>Equipo</span><span>Resultados</span><span>Detalles</span></div>
+        </article>
+        <div class="real-photo">
+          <img src="https://images.unsplash.com/photo-1520338661084-680395057c93?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=80&w=2200" alt="Barbero realizando un corte" />
+          <div class="photo-caption">Fotografía real de Unsplash. En un proyecto de cliente se reemplaza por material propio del negocio.</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container flow-grid">
+        <div>
+          <div class="eyebrow">Flujo de reserva</div>
+          <h2 style="margin-bottom:28px">De la curiosidad a la reserva, sin perder al cliente.</h2>
+          <div class="step-list">
+            <article class="step"><div class="step-num">1</div><div><h3>Entiende</h3><p>Ve de inmediato qué hace diferente a la barbería y cuáles son sus servicios principales.</p></div></article>
+            <article class="step"><div class="step-num">2</div><div><h3>Compara</h3><p>Revisa precio, duración y qué incluye cada opción sin tener que preguntar lo básico.</p></div></article>
+            <article class="step"><div class="step-num">3</div><div><h3>Reserva</h3><p>Continúa por WhatsApp o abre el sistema externo que ya utiliza el negocio.</p></div></article>
+          </div>
+        </div>
+        <div class="phone-frame">
+          <div class="phone-screen">
+            <div class="phone-bar"><span>9:41</span><b>OFFSET</b><span>•••</span></div>
+            <div class="phone-hero"><small>Tu próxima visita</small><h3>Corte que se adapta a ti.</h3><a href="https://wa.me/56953999924" target="_blank" rel="noopener">Reservar ahora</a></div>
+            <div class="phone-services">
+              <div class="phone-service"><b>Corte + barba</b><span>$20.000 · 50 min</span></div>
+              <div class="phone-service"><b>Corte clásico</b><span>$14.000 · 40 min</span></div>
+              <div class="phone-service"><b>Barba premium</b><span>$10.000 · 25 min</span></div>
+              <div class="phone-service"><b>Corte premium</b><span>$18.000 · 45 min</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container testimonial-grid">
+        <blockquote class="quote-main"><div><div class="eyebrow" style="color:#e6e5ff">Prueba social</div><blockquote>“Todo estaba claro antes de escribir: precio, duración y ubicación. Reservé en menos de un minuto.”</blockquote></div><footer>Opinión demostrativa · Se reemplaza por reseñas reales</footer></blockquote>
+        <div class="quote-stack">
+          <blockquote class="quote-small"><p>“La página hace que el negocio se vea ordenado y fácil de recomendar.”</p><footer>Opinión demostrativa</footer></blockquote>
+          <blockquote class="quote-small"><p>“Compartí un solo enlace y pude revisar todo desde el celular.”</p><footer>Opinión demostrativa</footer></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow">FAQ</div><h2>Respuestas antes del primer mensaje.</h2></div><p>Una sección breve puede evitar preguntas repetidas y aumentar la confianza antes de reservar.</p></div>
+        <div class="faq-list">
+          <article class="faq-item open">
+            <button class="faq-question" type="button" aria-expanded="true"><span>¿La web reemplaza Instagram?</span><span class="faq-icon" aria-hidden="true">+</span></button>
+            <div class="faq-answer"><div><p>No. Funciona como el enlace principal que organiza la información y puede dirigir a Instagram, WhatsApp o la plataforma de reservas.</p></div></div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false"><span>¿Puede conectarse con Setmore?</span><span class="faq-icon" aria-hidden="true">+</span></button>
+            <div class="faq-answer"><div><p>Sí. Puede incluir un botón directo al sistema externo que el negocio ya utiliza.</p></div></div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false"><span>¿Se puede cambiar el contenido?</span><span class="faq-icon" aria-hidden="true">+</span></button>
+            <div class="faq-answer"><div><p>Sí. Servicios, precios, horarios, fotografías y textos se adaptan a cada negocio.</p></div></div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false"><span>¿Funciona bien en celular?</span><span class="faq-icon" aria-hidden="true">+</span></button>
+            <div class="faq-answer"><div><p>La experiencia se diseña primero para pantallas pequeñas, porque ahí ocurre gran parte de las visitas y reservas.</p></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-card">
+          <div><div class="eyebrow" style="color:#d0d3da">Demo comercial</div><h2>Una página que se siente como producto, no como plantilla.</h2><p>La versión final se adapta con la identidad, fotografías, servicios y sistema de reservas de cada barbería.</p></div>
+          <a class="btn" href="https://wa.me/56953999924?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20una%20p%C3%A1gina%20web" target="_blank" rel="noopener">Hablar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid"><span>OFFSET Barber Studio · Demo comercial ficticia</span><span>Fotografía: John Karlo Mendoza / Unsplash</span></div>
+  </footer>
+
+  <script>
+    const menu = document.querySelector('.menu-btn');
+    const nav = document.querySelector('.nav-links');
+    menu?.addEventListener('click',()=>nav.classList.toggle('open'));
+    nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+
+    const faqItems = [...document.querySelectorAll('.faq-item')];
+    faqItems.forEach(item => {
+      const button = item.querySelector('.faq-question');
+      button.addEventListener('click', () => {
+        const willOpen = !item.classList.contains('open');
+        faqItems.forEach(other => {
+          other.classList.remove('open');
+          other.querySelector('.faq-question').setAttribute('aria-expanded','false');
+        });
+        if (willOpen) {
+          item.classList.add('open');
+          button.setAttribute('aria-expanded','true');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
