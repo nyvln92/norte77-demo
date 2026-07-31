@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">OFFSET Barber Studio</title>
+  <desc id="desc">Demostración comercial ficticia de Norte Web Studio.</desc>
+  <rect width="1200" height="630" fill="#eef0ff"/>
+  <rect x="56" y="52" width="1088" height="526" rx="34" fill="#151731"/>
+  <circle cx="1043" cy="154" r="112" fill="#ff6042"/>
+  <path d="M800 52v526M56 446h744" stroke="#7372ff" stroke-width="2"/>
+  <text x="112" y="130" fill="#9fa4c7" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5">DEMO COMERCIAL FICTICIA</text>
+  <text x="112" y="256" fill="#ffffff" font-family="Arial, sans-serif" font-size="84" font-weight="700">OFFSET</text>
+  <text x="112" y="350" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">Una web que ordena</text>
+  <text x="112" y="418" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">el siguiente paso.</text>
+  <text x="112" y="520" fill="#c7c9df" font-family="Arial, sans-serif" font-size="28">Norte Web Studio · Chile</text>
+  <text x="842" y="500" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="700">18:30</text>
+</svg>
